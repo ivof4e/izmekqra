@@ -1,0 +1,574 @@
+body{
+	font: 16px/1.5 Arial, Helvetica,sans-serif;
+	background-color:black;
+	padding:0;
+	margin:0;
+}
+.container{
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+}
+#AssassinsCreed{
+	background:url('../img/AssassinsCreed.jpg');
+	background-attachment:fixed;
+	text-align:justify;
+	background-size: 100% 100%;
+	border:2px solid black;
+	font-size: 220px;
+	padding: 0 130px 0 130px;
+	text-shadow: 5px 5px 15px #ffffff;
+}
+
+#Jigsaw{
+	background:url('../img/Saw.jpg');
+	background-attachment:fixed;
+	text-align:justify;
+	background-size: 100% 100%;
+	border:2px solid black;
+	font-size: 220px;
+	padding: 0 130px 0 130px;
+	text-shadow: 5px 5px 15px #ffffff;
+}
+
+#Vikings{
+	background:url('../img/Vikings.jpg');
+	background-attachment:fixed;
+	text-align:justify;
+	background-size: 100% 100%;
+	border:2px solid black;
+	font-size: 220px;
+	padding: 0 130px 0 130px;
+	text-shadow: 5px 5px 15px #ffffff;
+}
+/*Горна част*/
+header{
+	padding-top:0px;
+	min-height:150px;
+}
+
+header  {
+	border-style: solid;
+	border-width: 5px;
+	
+}
+
+header nav#butons ul li{
+	float:left;
+	display:inline;
+	padding-top:45px;
+	padding-left:95px;
+}
+
+header nav#butons ul li a{
+	font-size:28px;
+}
+
+header nav#butons ul li#opacity{
+	color:white;
+	font-size:28px;
+	opacity:0.2;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+/*Долната част*/
+footer{
+	padding:6px;
+	margin-top:6px;
+	color:#ffffff;
+	background-color:#000000;
+	text-align:unset;
+	border-top-style: solid;
+	border-top-width: 5px;
+	
+}
+
+footer p i {
+	margin: 85%;
+}
+
+footer li{
+	float:left;
+	color:#ffffff;
+	font-size:20px;
+	display:inline;
+	padding: 0 30px 0 30px;
+}
+
+/*Ховър ефект*/
+
+li:hover{
+	font-weight:bold;
+	font-family:Papyrus;
+}
+
+li#ABCD{
+	font-family:Papyrus;
+	transition-duration:2s;
+}
+
+li#ABCD:hover{
+	transform: rotate(360deg);
+}
+p:hover{
+	font-weight:bold;
+}
+h1{
+	color:white;
+	text-shadow: 4px 5px 8px;
+	font-size:30px;
+}
+
+h1:hover{
+	transform: scaleY(1.3);
+	transition-duration:2.10s;
+	color:white;
+	font-family:Papyrus;
+}
+
+h2:hover{
+	transform: rotate(8deg);
+	transition-duration:2.10s;
+}
+
+h3:hover{
+	font-weight:bold;
+}
+span:hover{
+	color:white;
+	font-family:Papyrus;
+}
+
+/*Посетена хипервръзка*/
+a:visited {color:white;}
+a:active {color:red;}
+a span:active {color:red;}
+a:link {color:white;}
+a:link {text-decoration:none;}
+
+/*Голяма буква*/
+
+#Alphabet{
+	list-style-type:none;
+	float: left;
+	padding: 40px 20px 60px 50px;
+}
+
+#ABCD{
+	list-style-type:none;
+	float: left;
+	padding: 40px 10px 0px 10px;
+}
+
+span{
+width:0.7em;
+font-size:1050%;
+font-family:Papyrus;
+line-height:110%;
+}
+
+li#Alphabet span:hover{
+transform: rotate(360deg);
+}
+
+span#small{
+width:0.7em;
+font-size:200%;
+font-family:Papyrus;
+}
+
+span#small2{
+width:0.7em;
+font-size:100%;
+font-family:Papyrus;
+}
+
+span#small3{
+width:0.7em;
+font-size:50%;
+font-family:Papyrus;
+}
+
+/*background картинка*/
+section#GamesBackground{
+			background:url('../img/AssassinsCreedGamesBackground.jpg');
+			background-size: 100% 100%;
+			color:#ffffff;
+			background-attachment:fixed;
+			text-align:justify;
+			padding-left:50px;
+		}
+		
+section#MoviesBackground{
+			background:url('../img/Deadpool.jpg');
+			background-size: 100% 100%;
+			color:#ffffff;
+			background-attachment:fixed;
+			text-align:justify;
+			padding-left:50px;
+		}
+		
+section#SerialsBackground{
+			background:url('../img/GOTBackground.jpg');
+			background-size: 100% 100%;
+			color:#ffffff;
+			background-attachment:fixed;
+			text-align:justify;
+			padding-left:50px;
+		}
+		
+/*Таблица игри*/
+
+#Games_Table  tr td{
+	padding-right: 40px;
+}
+
+#ScreenShots_Table{
+	text-align:center;
+	padding: 10px 30px 20px 10px;
+	margin:auto;
+}
+
+.ScreenShots{
+	color:white;
+	width:84%;
+	margin:auto;
+}
+
+.ScreenShots img{
+	border-style: solid;
+	border-width: 2px;
+	border-radius:10px;
+	border-color: white;
+}
+
+.ScreenShots img:hover{
+	
+	transform: scale(2,2);
+}
+
+.Games img{
+	transition-duration:0.5s;
+	border-style: solid;
+	border-width: 2px;
+	border-radius:10px;
+	border-color: white;
+}
+
+.Games{
+	color:white;
+}
+
+.Games img:hover{
+	
+	transform: rotate(360deg);
+}
+
+/*Таблица сериали*/
+#Serials_Table tr td{
+	padding-right: 40px;
+}
+
+#Seasons_Table{
+	text-align:center;
+	padding: 10px 30px 20px 10px;
+	margin:auto;
+}
+
+.Seasons{
+	color:white;
+	width:84%;
+	margin:auto;
+}
+
+.Seasons img{
+	border-style: solid;
+	border-width: 2px;
+	border-radius:10px;
+	border-color: white;
+}
+
+.Seasons img:hover{
+	transform: scale(1.5,1.4);
+
+}
+
+.Serials{
+	color:white;
+}
+
+.Serials img{
+	transition-duration:0.5s;
+	border-style: solid;
+	border-width: 2px;
+	border-radius:10px;
+	border-color: white;
+}
+
+.Serials img:hover{
+	transform: rotate(360deg);
+}
+
+/*Таблица Филми*/
+#Movies_Table tr td{
+	padding-right: 40px;
+}
+
+
+#Trailer_Table{
+	text-align:center;
+	padding: 10px 30px 20px 10px;
+	margin:auto;
+}
+
+.ScreenShots{
+	color:white;
+	width:84%;
+	margin:auto;
+}
+
+.ScreenShot img{
+	border-style: solid;
+	border-width: 2px;
+	border-radius:10px;
+	border-color: white;
+}
+
+.ScreenShots img:hover{
+	
+	transform: scale(2,2);
+}
+
+.Movies{
+	color:white;
+}
+
+.Movies img{
+	transition-duration:0.5s;
+	border-style: solid;
+	border-width: 2px;
+	border-radius:10px;
+	border-color: white;
+}
+
+.Movies img:hover{
+	
+	transform: rotate(360deg);
+}
+
+/*Видео Игри*/
+#video{
+	text-align:center;
+	padding: 0px 0px 0px 0px;
+	margin:auto;
+	
+}
+
+/*Навигация Филми*/
+nav#NavigationMenuMovies{
+	width:80px;
+	text-align:center;
+	background-color: black;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1000;
+	transition: all ease-in-out 200ms;
+	-webkit-transition: all ease-in-out 200ms;
+}
+
+nav#NavigationMenuMovies ul{
+	
+	padding-top: 0px;
+}
+
+nav#NavigationMenuMovies ul li{
+	list-style: none;
+	padding: 0px 0px;
+}
+
+#toggleMenuMovies {
+	width:50px;
+	height:50px;
+	background:url('../img/rebel-logo.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	top: 20px;
+	right: 100px;
+	z-index: 1050;
+	cursor: pointer;
+	transition: all ease-in-out 200ms;
+	-webkit-transition: all ease-in-out 200ms;
+	opacity:0.5
+}
+
+#toggleMenuMovies:hover {
+	transform: rotate(360deg);
+	opacity:1.0;
+}
+
+
+nav#NavigationMenuMovies{
+	width:80px;
+	text-align:center;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1000;
+	transition: all ease-in-out 200ms;
+	-webkit-transition: all ease-in-out 200ms;
+}
+
+/*Навигация Игри*/
+nav#NavigationMenuGames{
+	width:80px;
+	text-align:center;
+	background-color: black;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1000;
+	transition: all ease-in-out 200ms;
+	-webkit-transition: all ease-in-out 200ms;
+}
+
+nav#NavigationMenuGames ul{
+	padding-top: 0px;
+}
+
+nav#NavigationMenuGames ul li{
+	list-style: none;
+	padding: 0px 0px;
+}
+
+#toggleMenuGames {
+	width:50px;
+	height:60px;
+	background:url('../img/assasins-creed-logo.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	top: 20px;
+	right: 100px;
+	z-index: 1050;
+	cursor: pointer;
+	transition: all ease-in-out 200ms;
+	-webkit-transition: all ease-in-out 200ms;
+	opacity:0.5
+}
+
+#toggleMenuGames:hover {
+	transform: rotate(360deg);
+	opacity:1.0;
+}
+
+/*Навигация Сериали*/
+nav#NavigationMenuSerials{
+	width:80px;
+	text-align:center;
+	background-color: black;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1000;
+	transition: all ease-in-out 200ms;
+	-webkit-transition: all ease-in-out 200ms;
+}
+
+nav#NavigationMenuSerials ul{
+	padding-top: 0px;
+}
+
+nav#NavigationMenuSerials ul li{
+	list-style: none;
+	padding: 0px 0px;
+}
+
+#toggleMenuSerials {
+	width:60px;
+	height:60px;
+	background:url('../img/vikings-logo.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	top: 20px;
+	right: 100px;
+	z-index: 1050;
+	cursor: pointer;
+	transition: all ease-in-out 200ms;
+	-webkit-transition: all ease-in-out 200ms;
+	opacity:0.5
+}
+
+#toggleMenuSerials:hover {
+	transform: rotate(360deg);
+	opacity:1.0;
+}
+
+ul li ul li{
+	display:none;
+}
+
+ul li:hover ul li{
+	display:block;
+}
+
+/*Компаний лого игри*/
+
+#CompanyBorders{
+	border-style: solid;
+	border-width: 5px;
+	border-bottom-color: white;
+	border-top-color: white;
+	text-align:center;
+}
+
+.CompanyLogos img{
+	border-style: solid;
+	border-width: 2px;
+	border-radius:10px;
+	border-color: white;
+}
+.CompanyLogos tr td img{
+	width:180px;
+	height:150px;
+	padding:0px;
+	margin-left:12px;
+	margin-bottom:6px;
+	margin-top:6px;
+	filter: grayscale(100%);
+	transition: .5s ease-in-out;
+	text-align:justify;
+}
+
+.CompanyLogos tr td img:hover{
+	filter: grayscale(0%);
+	cursor:pointer;
+}
+
+
