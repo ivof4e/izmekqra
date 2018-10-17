@@ -41,6 +41,18 @@ body{
 	padding: 0 130px 0 130px;
 	text-shadow: 5px 5px 15px #ffffff;
 }
+
+#FiveFingerDeathPunch{
+	background:url('../img/FiveFingerDeathPunch.jpg');
+	background-attachment:fixed;
+	text-align:justify;
+	background-size: 100% 100%;
+	border:2px solid black;
+	font-size: 220px;
+	padding: 0 130px 0 130px;
+	text-shadow: 5px 5px 15px #ffffff;
+}
+
 /*Горна част*/
 header{
 	padding-top:0px;
@@ -108,11 +120,10 @@ li:hover{
 
 li#ABCD{
 	font-family:Papyrus;
-	transition-duration:2s;
 }
 
 li#ABCD:hover{
-	transform: rotate(360deg);
+
 }
 p:hover{
 	font-weight:bold;
@@ -139,14 +150,14 @@ h3:hover{
 	font-weight:bold;
 }
 span:hover{
-	color:white;
+	color:red;
 	font-family:Papyrus;
 }
 
 /*Посетена хипервръзка*/
 a:visited {color:white;}
 a:active {color:red;}
-a span:active {color:red;}
+a span:active {color:purple;}
 a:link {color:white;}
 a:link {text-decoration:none;}
 
@@ -214,6 +225,15 @@ section#MoviesBackground{
 		
 section#SerialsBackground{
 			background:url('../img/GOTBackground.jpg');
+			background-size: 100% 100%;
+			color:#ffffff;
+			background-attachment:fixed;
+			text-align:justify;
+			padding-left:50px;
+		}
+
+section#MusicBackground{
+			background:url('../img/Disturbed.jpg');
 			background-size: 100% 100%;
 			color:#ffffff;
 			background-attachment:fixed;
@@ -318,29 +338,10 @@ section#SerialsBackground{
 	padding-right: 40px;
 }
 
-
 #Trailer_Table{
 	text-align:center;
 	padding: 10px 30px 20px 10px;
 	margin:auto;
-}
-
-.ScreenShots{
-	color:white;
-	width:84%;
-	margin:auto;
-}
-
-.ScreenShot img{
-	border-style: solid;
-	border-width: 2px;
-	border-radius:10px;
-	border-color: white;
-}
-
-.ScreenShots img:hover{
-	
-	transform: scale(2,2);
 }
 
 .Movies{
@@ -359,6 +360,36 @@ section#SerialsBackground{
 	
 	transform: rotate(360deg);
 }
+
+
+/*Таблица Музика*/
+#Music_Table tr td{
+	padding-right: 40px;
+	float:left;
+}
+
+#Music_Table{
+	text-align:left;
+	padding: 10px 30px 20px 10px;
+}
+
+.Music{
+	color:white;
+}
+
+.Music img{
+	transition-duration:0.5s;
+	border-style: solid;
+	border-width: 2px;
+	border-radius:10px;
+	border-color: white;
+}
+
+.Music img:hover{
+	
+	transform: rotate(360deg);
+}
+
 
 /*Видео Игри*/
 #video{
@@ -395,6 +426,7 @@ nav#NavigationMenuMovies ul{
 nav#NavigationMenuMovies ul li{
 	list-style: none;
 	padding: 0px 0px;
+	font-size:14px;
 }
 
 #toggleMenuMovies {
@@ -419,18 +451,6 @@ nav#NavigationMenuMovies ul li{
 }
 
 
-nav#NavigationMenuMovies{
-	width:80px;
-	text-align:center;
-	background-color: black;
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	z-index: 1000;
-	transition: all ease-in-out 200ms;
-	-webkit-transition: all ease-in-out 200ms;
-}
 
 /*Навигация Игри*/
 nav#NavigationMenuGames{
@@ -458,6 +478,7 @@ nav#NavigationMenuGames ul{
 nav#NavigationMenuGames ul li{
 	list-style: none;
 	padding: 0px 0px;
+	font-size:16px;
 }
 
 #toggleMenuGames {
@@ -507,6 +528,7 @@ nav#NavigationMenuSerials ul{
 nav#NavigationMenuSerials ul li{
 	list-style: none;
 	padding: 0px 0px;
+	font-size:14px;
 }
 
 #toggleMenuSerials {
@@ -530,6 +552,58 @@ nav#NavigationMenuSerials ul li{
 	opacity:1.0;
 }
 
+/*Навигация Музика*/
+nav#NavigationMenuMusic{
+	width:80px;
+	text-align:center;
+	background-color: black;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1000;
+	transition: all ease-in-out 200ms;
+	-webkit-transition: all ease-in-out 200ms;
+}
+
+nav#NavigationMenuMusic ul{
+	
+	padding-top: 0px;
+}
+
+nav#NavigationMenuMusic ul li{
+	list-style: none;
+	padding: 0px 0px;
+	font-size:14px;
+}
+
+#toggleMenuMusic {
+	width:80px;
+	height:60px;
+	background:url('../img/killswitch-engage-logo.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	top: 20px;
+	right: 100px;
+	z-index: 1050;
+	cursor: pointer;
+	transition: all ease-in-out 200ms;
+	-webkit-transition: all ease-in-out 200ms;
+	opacity:0.5
+}
+
+#toggleMenuMusic:hover {
+	transform: rotate(360deg);
+	opacity:1.0;
+}
+
+/*ховер ефекти на списъци*/
 ul li ul li{
 	display:none;
 }
@@ -538,14 +612,12 @@ ul li:hover ul li{
 	display:block;
 }
 
-/*Компаний лого игри*/
+/*Компаний лого*/
 
 #CompanyBorders{
 	border-style: solid;
 	border-width: 5px;
-	border-bottom-color: white;
 	border-top-color: white;
-	text-align:center;
 }
 
 .CompanyLogos img{
@@ -570,5 +642,3 @@ ul li:hover ul li{
 	filter: grayscale(0%);
 	cursor:pointer;
 }
-
-
