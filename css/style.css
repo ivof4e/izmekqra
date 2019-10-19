@@ -67,7 +67,6 @@ header  {
 
 header nav#butons ul li{
 	float:left;
-	display:inline;
 	padding-top:45px;
 	padding-left:95px;
 }
@@ -115,11 +114,11 @@ footer li{
 
 li:hover{
 	font-weight:bold;
-	font-family:Papyrus;
+	font-family:Cursive;
 }
 
 li#ABCD{
-	font-family:Papyrus;
+	font-family:Cursive;
 }
 
 li#ABCD:hover{
@@ -135,15 +134,13 @@ h1{
 }
 
 h1:hover{
-	transform: scaleY(1.3);
-	transition-duration:2.10s;
-	color:white;
-	font-family:Papyrus;
+	color:red;
+	font-family:Cursive;
 }
 
 h2:hover{
-	transform: rotate(8deg);
-	transition-duration:2.10s;
+	font-weight:bold;
+	font-family:Cursive;
 }
 
 h3:hover{
@@ -151,8 +148,22 @@ h3:hover{
 }
 span:hover{
 	color:red;
-	font-family:Papyrus;
+	font-family:Cursive;
 }
+
+span#small:hover{
+	color:red;
+	font-family:Cursive;
+}
+span#small2:hover{
+	color:red;
+	font-family:Cursive;
+}
+span#small3:hover{
+	color:red;
+	font-family:Cursive;
+}
+
 
 /*Посетена хипервръзка*/
 a:visited {color:white;}
@@ -178,7 +189,7 @@ a:link {text-decoration:none;}
 span{
 width:0.7em;
 font-size:1050%;
-font-family:Papyrus;
+font-family:Arial;
 line-height:110%;
 }
 
@@ -189,19 +200,19 @@ transform: rotate(360deg);
 span#small{
 width:0.7em;
 font-size:200%;
-font-family:Papyrus;
+font-family:Arial;
 }
 
 span#small2{
 width:0.7em;
 font-size:100%;
-font-family:Papyrus;
+font-family:Arial;
 }
 
 span#small3{
 width:0.7em;
 font-size:50%;
-font-family:Papyrus;
+font-family:Arial;
 }
 
 /*background картинка*/
@@ -357,7 +368,6 @@ section#MusicBackground{
 }
 
 .Movies img:hover{
-	
 	transform: rotate(360deg);
 }
 
