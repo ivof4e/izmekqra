@@ -67,6 +67,7 @@ header  {
 
 header nav#butons ul li{
 	float:left;
+	display:inline;
 	padding-top:45px;
 	padding-left:95px;
 }
