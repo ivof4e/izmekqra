@@ -661,7 +661,6 @@ ul li:hover ul li{
 /*Тагове*/
 
 .tags{
-	position: relative;
 	margin-top:5px;
 }
 .tags span{
@@ -833,4 +832,136 @@ ul li:hover ul li{
 	} to{
 		transform:rotateY(360deg);
 	}
+}
+
+/*Горно навигационно меню*/
+
+.upNavBar{
+	width: 100%;
+	padding: 0px;
+	text-align:center;
+	top:0px;
+	position: fixed;
+}
+
+.upNavBar ul {
+	list-style:none;
+	display: inline-block;
+	background: black;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border:hidden;
+}
+
+
+.upNavBar li{
+	float: left;
+	width:150px;
+	height:95px;
+	line-height:95px;
+	position:relative;
+	cursor:pointer;
+}
+
+.upNavBar li a:hover{
+	color: red;
+}
+
+ul #dropDownMenu{
+	position: absolute;
+	top:100%;
+	left:0%;
+	width:100%;
+	padding:0;
+	
+}
+
+nav ul li ul li{
+	display:none;
+	clear: both;
+	width :100%;
+	animation: animate 800ms forwards ease;
+}
+
+nav ul li ul li:nth-of-type(1){
+	transform-origin: top left;
+	transform: skewX(45deg) scaleY(0);
+}
+
+nav ul li ul li:nth-of-type(2){
+	transform-origin: top right;
+	transform: skewX(-45deg) scaleY(0);
+	animation-delay: 150ms;
+}
+
+nav ul li ul li:nth-of-type(3){
+	transform-origin: top right;
+	transform: skewX(45deg) scaleY(0);
+	animation-delay: 300ms;
+}
+
+nav ul li ul li:nth-of-type(4){
+	transform-origin: top right;
+	transform: skewX(-45deg) scaleY(0);
+	animation-delay: 450ms;
+}
+
+nav ul li ul li:nth-of-type(5){
+	transform-origin: top right;
+	transform: skewX(45deg) scaleY(0);
+	animation-delay: 600ms;
+}
+
+@keyframes animate{
+	to{
+		transform: skewX(0deg) scaleY(1);
+	}
+}
+
+ul li:hover ul li{
+	display:block;
+}
+
+nav ul li a {
+	border:hidden;
+}
+
+/*nav menu logo*/
+nav ul li img#navMenuLogo{
+  display: block;
+  width: 95px;
+  height: 95px;
+  margin:auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+nav ul li:hover .overlay {
+  opacity: 2;
+  background-color:black;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.text {
+  color: red;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
