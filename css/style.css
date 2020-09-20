@@ -158,9 +158,24 @@ h2:hover{
 	font-family:Cursive;
 }
 
+h3{
+	color:white;
+	text-shadow: 4px 5px 8px;
+}
+
 h3:hover{
 	font-weight:bold;
 }
+
+h4{
+	color:white;
+	text-shadow: 4px 5px 8px;
+}
+
+h4:hover{
+	font-weight:bold;
+}
+
 span.letters:hover{
 	color:red;
 	font-family:Cursive;
@@ -682,93 +697,290 @@ ul li:hover ul li{
 	margin-right: 2px;
 }
 .tags span.action{
-	background: #0000ff;
-	border-radius:10px;
+	cursor: pointer;
+	background-image: url('../img/action.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 70px;
+	display: inline-block;
+	margin: -15px 2px;
 }
-.tags span.asian{
-	background: red;
-	border-radius:10px;
-	color: yellow;
+.tags span.anime{
+	cursor: pointer;
+	background-image: url('../img/anime.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 65px;
+	display: inline-block;
+	margin: -15px 2px;
 }
 .tags span.animation{
-	background: red;
-	border-radius:10px;
-	color: black;
+	cursor: pointer;
+	background-image: url('../img/animation.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 115px;
+	display: inline-block;
+	margin: -15px 2px;
 }
 .tags span.adventure{
-	background: #e67300;
-	border-radius:10px;
+	cursor: pointer;
+	background-image: url('../img/adventure.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 85px;
+	display: inline-block;
+	margin: -15px 2px;
 }
 .tags span.crime{
-	background: yellow;
-	border-radius:10px;
-	color: black;
+	cursor: pointer;
+	background-image: url('../img/crime.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 55px;
+	display: inline-block;
+	margin: -15px 2px;
 }
 .tags span.comedy{
-	background: #00ff00;
-	border-radius:10px;
-	color: black;
+	cursor: pointer;
+	background-image: url('../img/comedy.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 65px;
+	display: inline-block;
+	margin: -15px 2px;
 }
 .tags span.drama{
-	background: #b30059;
-	border-radius:10px;
+	cursor: pointer;
+	background-image: url('../img/drama.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 75px;
+	display: inline-block;
+	margin: -15px 2px;
 }
 .tags span.fantasy{
-	background: #b800e6;
-	border-radius:10px;
+	cursor: pointer;
+	background-image: url('../img/fantasy.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 65px;
+	display: inline-block;
+	margin: -15px 2px;
 }
 .tags span.family{
-	background: #ffffff;
-	border-radius:10px;
-	color: black;
+	cursor: pointer;
+	background-image: url('../img/family.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 55px;
+	display: inline-block;
+	margin: -15px 2px;
 }
 .tags span.horror{
-	background: #ff3300;
-	border-radius:10px;
+	cursor: pointer;
+	background-image: url('../img/horror.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 75px;
+	display: inline-block;
+	margin: -15px 2px;
 }
-.tags span.history {
-	background: #996633;
-	border-radius:10px;
+.tags span.history{
+	cursor: pointer;
+	background-image: url('../img/history.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 70px;
+	display: inline-block;
+	margin: -15px 2px;
 }
-.tags span.mystery {
-	background: #00cccc;
-	border-radius:10px;
-	color: black;
+.tags span.mystery{
+	cursor: pointer;
+	background-image: url('../img/mystery.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 70px;
+	display: inline-block;
+	margin: -15px 2px;
 }
-.tags span.romantic {
-	background: hotpink;
-	border-radius:10px;
+.tags span.romantic{
+	cursor: pointer;
+	background-image: url('../img/romantic.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 55px;
+	display: inline-block;
+	margin: -15px 2px;
 }
 
-.tags span.thriller {
-	background: #009900;
-	border-radius:10px;
+.tags span.thriller{
+	cursor: pointer;
+	background-image: url('../img/thriller.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 65px;
+	display: inline-block;
+	margin: -15px 2px;
 }
-.tags span.war {
-	background: gray;
-	border-radius:10px;
+.tags span.war{
+	cursor: pointer;
+	background-image: url('../img/war.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 35px;
+	display: inline-block;
+	margin: -15px 2px;
 }
-.tags span.western {
-	background: #888844;
-	border-radius:10px;
+.tags span.western{
+	cursor: pointer;
+	background-image: url('../img/western.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 95px;
+	display: inline-block;
+	margin: -15px 2px;
 }
 
-.tags span.shooter {
-	background: white;
-	border-radius:10px;
-	color: red;
+/*за Игри*/
+.tags span.TP_RPG_action{
+	cursor: pointer;
+	background-image: url('../img/TP_RPG_action.gif');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 220px;
+	display: inline-block;
+	margin: -15px 2px;
+}
+
+.tags span.TPS{
+	cursor: pointer;
+	background-image: url('../img/TPS.gif');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 215px;
+	display: inline-block;
+	margin: -15px 2px;
+}
+
+.tags span.TP_RPG_action_shooter{
+	cursor: pointer;
+	background-image: url('../img/TP_RPG_action_shooter.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 315px;
+	display: inline-block;
+	margin: -15px 2px;
+}
+
+.tags span.FP_RPG_action_shooter{
+	cursor: pointer;
+	background-image: url('../img/FP_RPG_action_shooter.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 260px;
+	display: inline-block;
+	margin: -15px 2px;
+}
+
+.tags span.FPS{
+	cursor: pointer;
+	background-image: url('../img/FPS.gif');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 215px;
+	display: inline-block;
+	margin: -15px 2px;
+}
+
+.tags span.fighting {
+	cursor: pointer;
+	background-image: url('../img/fighting.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 75px;
+	display: inline-block;
+	margin: -15px 2px;
+}
+
+.tags span.quest{
+	cursor: pointer;
+	background-image: url('../img/quest.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 35px;
+	display: inline-block;
+	margin: -15px 2px;
 }
 
 .tags span.stealth{
-	background: green;
-	border-radius:10px;
-	color: blue;
+	cursor: pointer;
+	background-image: url('../img/stealth.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 100px;
+	display: inline-block;
+	margin: -15px 2px;
 }
 
-.tags span.rpg {
-	background: white;
-	border-radius:10px;
-	color: green;
+.tags span.RPG_action {
+	cursor: pointer;
+	background-image: url('../img/RPG_action.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 85px;
+	display: inline-block;
+	margin: -15px 2px;
+}
+
+.tags span.RPG_shooter {
+	cursor: pointer;
+	background-image: url('../img/RPG_shooter.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 135px;
+	display: inline-block;
+	margin: -15px 2px;
+}
+
+.tags span.interactive_film {
+	cursor: pointer;
+	background-image: url('../img/interactive_film.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 195px;
+	display: inline-block;
+	margin: -15px 2px;
+}
+
+.tags span.scrollingShooter {
+	cursor: pointer;
+	background-image: url('../img/scrollingShooter.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 110px;
+	display: inline-block;
+	margin: -15px 2px;
+}
+
+.tags span.platform {
+	cursor: pointer;
+	background-image: url('../img/platform.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 105px;
+	display: inline-block;
+	margin: -15px 2px;
+}
+
+.tags span.beatEmUp {
+	cursor: pointer;
+	background-image: url('../img/beatEmUp.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 110px;
+	display: inline-block;
+	margin: -15px 2px;
 }
 
 /*Слайдщоу Игри скрииншоти*/
