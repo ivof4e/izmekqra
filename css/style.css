@@ -126,13 +126,6 @@ div span:hover{
 	font-weight:bold;
 }
 
-li#ABCD{
-	font-family:Cursive;
-}
-
-li#ABCD:hover{
-
-}
 p:hover{
 	font-weight:bold;
 }
@@ -140,6 +133,12 @@ h1{
 	color:white;
 	text-shadow: 4px 5px 8px;
 	font-size:30px;
+}
+
+h1#albums{
+	color:white;
+	text-shadow: 4px 5px 8px;
+	font-size:50px;
 }
 
 h1:hover{
@@ -213,36 +212,38 @@ a:link {text-decoration:none;}
 #ABCD{
 	list-style-type:none;
 	float: left;
-	padding: 40px 10px 0px 10px;
+	height: 70px;
+	margin: 18px;
+	padding: 25px;
 }
 
 span.letters{
-width:0.7em;
-font-size:1050%;
-font-family:Arial;
-line-height:110%;
+	width:0.7em;
+	font-size:900%;
+	font-family:Arial;
+	line-height:65%;
 }
 
 li#Alphabet span:hover{
-transform: rotate(360deg);
+	transform: rotate(360deg);
 }
 
 span.letters#small{
-width:0.7em;
-font-size:200%;
-font-family:Arial;
+	width:0.7em;
+	font-size:200%;
+	font-family:Arial;
 }
 
 span.letters#small2{
-width:0.7em;
-font-size:100%;
-font-family:Arial;
+	width:0.7em;
+	font-size:100%;
+	font-family:Arial;
 }
 
 span.letters#small3{
-width:0.7em;
-font-size:50%;
-font-family:Arial;
+	width:0.7em;
+	font-size:50%;
+	font-family:Arial;
 }
 
 /*background картинка*/
@@ -290,6 +291,8 @@ section#MusicBackground{
 
 #Games_Table  tr td{
 	padding-right: 40px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 .Games img{
@@ -346,7 +349,7 @@ section#MusicBackground{
 
 .Seasons_Animation_Characters img{
 	width: 100%;
-  height: auto;
+	height: auto;
 }
 
 .Seasons_Animation_Characters:hover img{
@@ -380,6 +383,12 @@ section#MusicBackground{
 /*Таблица Филми*/
 #Movies_Table tr td{
 	padding-right: 40px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#Movies_Table td h1{
+	text-align:top;
 }
 
 #Trailer_Table{
@@ -522,7 +531,7 @@ nav#NavigationMenuGames ul{
 nav#NavigationMenuGames ul li{
 	list-style: none;
 	padding: 0px 0px;
-	font-size:16px;
+	font-size:14px;
 }
 
 #toggleMenuGames {
@@ -845,10 +854,10 @@ ul li:hover ul li{
 /*за Игри*/
 .tags span.TP_RPG_action{
 	cursor: pointer;
-	background-image: url('../img/TP_RPG_action.gif');
+	background-image: url('../img/TP_RPG_action.png');
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 20px 220px;
+	padding: 20px 240px;
 	display: inline-block;
 	margin: -15px 2px;
 }
@@ -983,10 +992,29 @@ ul li:hover ul li{
 	margin: -15px 2px;
 }
 
+.tags span.racing{
+	cursor: pointer;
+	background-image: url('../img/racing.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 26px 80px;
+	display: inline-block;
+	margin: -15px 2px;
+}
+
+.tags span.sports{
+	cursor: pointer;
+	background-image: url('../img/sports.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 8-0px;
+	display: inline-block;
+	margin: -15px 2px;
+}
+
 /*Слайдщоу Игри скрииншоти*/
 .txt{
 	text-align: center;
-	
 }
 
 .SlideShow{
