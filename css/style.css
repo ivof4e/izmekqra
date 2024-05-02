@@ -1007,9 +1007,9 @@ ul li:hover ul li{
 	background-image: url('../img/sports.png');
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 20px 8-0px;
+	padding: 20px 80px;
 	display: inline-block;
-	margin: -15px 2px;
+	margin: -10px 2px;
 }
 
 /*Слайдщоу Игри скрииншоти*/
